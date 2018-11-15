@@ -44,8 +44,6 @@ app.post('/ceshi', function (req, res) {
     console.log(params);
     console.log('====================================');
 
-
-
     // 在当前现有的文件内写入数据
     // fs.appendFile(__dirname + '/json.txt', struserInfo, function () {
     //     console.log('追加内容完成');
